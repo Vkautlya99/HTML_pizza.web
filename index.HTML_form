@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>vrknews.co</title>
+
+
+    </head>
+    <body>
+      <header>
+           <h1>Best pizza ever !</h1>
+           <h3>We welcome you to purchase some delicios pizza !</h3>
+      </header>
+
+      <main>
+
+
+         <section id="contact-form">
+               <h2>Place order</h2>
+               <form method="GET" action="place-order.php">
+                 <h4>Delivery</h4>
+                 <input name="delivery" type="radio" value="delivery" /> DELIVERY<br />
+
+                 <input name="adress1" placeholder="Adress Line 1" class="lg-input"/><br />
+                 <input name="adress2" placeholder="Adress Line 2" class="lg-input"/><br />
+
+                <input name="city" placeholder="city" class="sm-input" />
+                <input name="state" placeholder="state" class="sm-input" />
+                <input name="Zip" placeholder="Zip code" class="sm-input" /><br /><br /><br /><br />
+               <br />
+                <!-- <input name="your helpful feedback" type="feedback" class="lg-inputS"/> -->
+               <br />
+               <h3>Ingridients</h3>
+
+
+               <input name="pepronni" type="checkbox" /> pepronni<br />
+               <input name="morrocon" type="checkbox" />morrocon<br />
+               <input name="cheesy brust" type="checkbox" />cheese<br />
+               <input name="sausage" type="checkbox" />Italian sausage<br />
+               <input name="peppers" type="checkbox" />peppers<br />
+            <br />
+
+
+             </form>
+
+         </section>
+         <br />
+
+
+           <footer>&copy;copyright 2021</footer>
+      </main>
+
+
+     </body>
+</html>
